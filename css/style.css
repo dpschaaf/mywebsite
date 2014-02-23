@@ -1,6 +1,6 @@
 body {
-  font-family: 'Nunito', sans-serif;
-  color: #FAF3BC;
+  font-family: 'Roboto', sans-serif;
+  color: #C2D699;
   background: #424242 ;
 }
 
@@ -11,18 +11,18 @@ a {
 
 h1 {
   font-size: 1.750em;
-  letter-spacing: -1.5px;
+  letter-spacing: -.5px;
 }
 
 h2 {
-  font-size: 1.50em;
+  font-size: 1.5em;
   color: #B4C34F;
 }
 
 .btn {
   color: #FAF3BC;
-  background: #4FB69F url('img/texture.png') no-repeat right top;
-  margin: 60px 0px;
+  background: #4FB69F;
+  margin: 30px 0px;
   padding: 15px 30px;
   border-radius: 25px;
   text-transform: uppercase;
@@ -32,10 +32,12 @@ h2 {
   background-color: #4CC4A7;
 }
 
+
 ul.nav {
   margin: 120px 0 0 0;
   list-style: none;
   float: right;
+  font-size: 1.150em
 }
 
 ul.nav li {
@@ -48,16 +50,25 @@ ul.nav li a {
 }
 
 #intro {
-  margin: 50px 0 70px 0;
+  margin: 40px 0 0 0;
 }
 
+#intro h1 {
+  color:  #B4CD82;
+}  
+
+#intro p {
+  font-size: 1.1em;
+  letter-spacing: -.5px;
+}  
+
 #recent-places img {
-  border: 8px solid #FAF3BC;
+  border: 5px solid #FAF3BC;
   margin: 0 0 30px 0;
 }
 
 #current img {
-  border: 8px solid #FAF3BC;
+  border: 5px solid #FAF3BC;
 }
 
 #copyright {
@@ -69,11 +80,13 @@ ul.nav li a {
 
 #logo {
   padding: 10px;
-  margin: 40px 0 20px 0;
+  margin: 40px 0 20px 10px;
 }
 
-
-
+#self img {
+  border: 5px solid #FAF3BC;
+  margin: 50px 0 90px 20px;
+}
 
 
 
